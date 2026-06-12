@@ -26,10 +26,11 @@ Using an automated spatial routing mechanics pipeline, any infrastructure assets
    cd wildfire-geoai-catastrophe-dashboard
 
  1.  Configure Environment & Dependencies:
-  
+  ```bash
    conda create -n geoai_bigdata_env python=3.10
     conda activate geoai_bigdata_env
     pip install -r requirements.txt
 
  2.   Run the Application:
+    ```bash
     streamlit run src/app.py
